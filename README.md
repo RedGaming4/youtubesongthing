@@ -25,3 +25,41 @@ You can install the required libraries using pip:
 
 ```bash
 pip install pyautogui pymongo
+
+How It Works
+Screen Size: The script starts by printing the size of the screen.
+
+Database Connection: Connects to a local MongoDB database named testdatabase and accesses the Songs collection.
+
+YouTube Video Utilization: The project leverages YouTube videos featuring electronic piano tutorials to guide the song playback, allowing for dynamic music generation based on the tutorial content.
+
+Song Input: Prompts the user to either:
+
+Input their own song note by note.
+Request a song from the database.
+Playing the Song: The song is played by simulating key presses based on a mapping of notes to keyboard keys.
+
+Delay Management: Each note has a delay to simulate realistic playing speed.
+
+Usage
+Run the script, and follow the prompts to either enter your own song or request a song from the database.
+
+bash
+Copy code
+python auto_piano_player.py
+Example Input
+To play a song, enter the notes as numbers (1-9, 0).
+To request a song, input the name of the song you wish to play.
+Note Key Mapping
+The notes are mapped to keyboard numbers as follows:
+
+1: C
+2: D
+3: E
+4: F
+5: G
+6: A
+7: B
+8: C#
+9: D#
+0: E
