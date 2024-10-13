@@ -23,6 +23,11 @@ To run this project, you will need:
 
 You can install the required libraries using pip:
 
+## WORK IN PROGRESS
+
+**This is all for fun wanted to do it after seeing youtube videos where you could just play a piano by pressing the numpad keys**
+**fun little dumb project. Not Done.**
+
 ```bash
 pip install pyautogui pymongo
 
